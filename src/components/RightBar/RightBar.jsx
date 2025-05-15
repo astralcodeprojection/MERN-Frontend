@@ -1,6 +1,4 @@
 import React from 'react';
-import birthdayIcon from '../../assets/giftBox.png';
-import ad from "../../assets/ad.jpeg";
 import UsersOnline from "../UsersOnline/UsersOnline";
 import { Users } from "../../data/dummyData";
 
@@ -10,12 +8,12 @@ const RightBar = ({profile}) => {
     return(
       <>
       <div className='flex items-center'>
-          <img src={birthdayIcon} alt='birthday icon' className='w-[40px] h-[40px] mr-[10px]'/>
+          <img src="/assets/giftBox.png" alt='birthday icon' className='w-[40px] h-[40px] mr-[10px]'/>
           <span className='font-semibold text-md'>
             <b>Anata Pursin</b> and <b>7 others</b> have a birthday today
           </span>
         </div>
-        <img src={ad} alt='advertisement' className='w-full rounded-lg mt-[30px] mb-[30px]'/>
+        <img src="/assets/ad.jpeg" alt='advertisement' className='w-full rounded-lg mt-[30px] mb-[30px]'/>
         <h1 className='font-bold text-lg mb-[20px]'>Online</h1>
         <ul className='m-0 p-0'>
           {Users.map((user) => (
