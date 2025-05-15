@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-    baseURL: "https://mern-javascript-social-media-app.onrender.com/api/v1"
+    baseURL: import.meta.env.VITE_API_BASE_URL
 });
 
 export const getTimeLinePost = (username) =>
