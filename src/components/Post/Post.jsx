@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { MdOutlineMoreVert } from "react-icons/md";
-import postPicture from "../../assets/postPicture.jpg";
 import thumbsUp from "../../assets/thumbsUp.png";
 import heart from "../../assets/heart.png";
 
@@ -34,8 +33,8 @@ const Post = ({ post }) => {
         </div>
         <div className='flex items-center justify-between'>
             <div className='flex items-center gap-[5px]'>
-                <img src={thumbsUp} alt='thumbsUp' className='w-[24px] h-[24px]' onClick={handleLike}/>
-                <img src={heart} alt='heart' className='w-[24px] h-[24px]' onClick={handleLike}/>
+                <img src="/assets/thumbsUp.png" alt='thumbsUp' className='w-[24px] h-[24px]' onClick={handleLike}/>
+                <img src="/assets/heart.png" alt='heart' className='w-[24px] h-[24px]' onClick={handleLike}/>
                 <span className='text-sm'>{like} Likes</span>
 
             </div>
