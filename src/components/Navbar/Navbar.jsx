@@ -4,7 +4,7 @@ import { LiaSearchSolid } from "react-icons/lia";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { IoChatboxSharp } from "react-icons/io5";
 import { IoMdNotifications } from "react-icons/io";
-import profilePicture from '../../assets/profilePicture.jpg'
+import profilePicture from 'client/src/assets/profilepicture.jpg'
 
 const Navbar = () => {
   return (
