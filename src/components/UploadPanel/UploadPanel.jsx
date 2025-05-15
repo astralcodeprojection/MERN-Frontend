@@ -1,5 +1,4 @@
 import React from "react";
-import profilePicture from "../../assets/profilePicture.jpg";
 import {MdLabel, MdPermMedia, MdEmojiEmotions, MdLocationPin} from "react-icons/md";
 
 const UploadPanel = () => {
@@ -7,7 +6,7 @@ const UploadPanel = () => {
     <div className='w-full h-[170px] rounded-lg shadow-md'>
         <div className="wrapper p-[10px]">
             <div className="top flex items-center">
-                <img src={profilePicture} alt='profilePicture' className='w-[50px] h-[50px] rounded-full mr-[10px] object-cover'/>
+                <img src="/assets/profilePicture.jpg" alt='profilePicture' className='w-[50px] h-[50px] rounded-full mr-[10px] object-cover'/>
                 <input type='text' placeholder='What is on your mind?' className='w-[80%] focus:outline-none'/>
             </div>
             <hr className='m-[20px]'/>

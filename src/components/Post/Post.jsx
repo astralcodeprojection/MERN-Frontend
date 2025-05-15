@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { MdOutlineMoreVert } from "react-icons/md";
-import profilePicture from "../../assets/profilePicture.jpg";
 import postPicture from "../../assets/postPicture.jpg";
 import thumbsUp from "../../assets/thumbsUp.png";
 import heart from "../../assets/heart.png";
@@ -20,7 +19,7 @@ const Post = ({ post }) => {
         <div className='p-[10px]'>
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
-                    <img src={profilePicture} alt='Profile Picture' className='w-[32px] h-[32px] rounded-full object-cover'/>
+                    <img src="/assets/profilePicture.jpg" alt='Profile Picture' className='w-[32px] h-[32px] rounded-full object-cover'/>
                     <span className='font-bold ml-[10px] mr-[10px]'>Test Person</span>
                     <span className='text-sm'>{post.date}</span>
                 </div>

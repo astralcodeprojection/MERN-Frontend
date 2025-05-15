@@ -4,7 +4,6 @@ import { LiaSearchSolid } from "react-icons/lia";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { IoChatboxSharp } from "react-icons/io5";
 import { IoMdNotifications } from "react-icons/io";
-import profilePicture from "../../assets/profilepicture.jpg";
 
 const Navbar = () => {
   return (
@@ -50,7 +49,7 @@ const Navbar = () => {
                 </div>
             </div>
                 <div className="profilePicture">
-                    <img src={profilePicture} alt='' className="w-[32px] h-[32px] object-cover rounded-full cursor-pointer" ></img>
+                    <img src="/assets/profilePicture.jpg" alt='' className="w-[32px] h-[32px] object-cover rounded-full cursor-pointer" ></img>
                 </div>
         </div>
     </div>

@@ -1,7 +1,6 @@
 import React from 'react';
 import birthdayIcon from '../../assets/giftBox.png';
 import ad from "../../assets/ad.jpeg";
-import profilePicture from "../../assets/profilePicture.jpg";
 import UsersOnline from "../UsersOnline/UsersOnline";
 import { Users } from "../../data/dummyData";
 
@@ -48,23 +47,23 @@ const RightBar = ({profile}) => {
         <h1 className='font-bold text-xl mb-[10px]'>Friends</h1>
         <div className='grid grid-cols-3 gap-4'>
           <div>
-            <img src={profilePicture} alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
+            <img src="/assets/profilePicture.jpg" alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
             <span>Lorra Belle</span>
           </div>
           <div>
-            <img src={profilePicture} alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
+            <img src="/assets/profilePicture.jpg" alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
             <span>Lorra Belle</span>
           </div>
           <div>
-            <img src={profilePicture} alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
+            <img src="/assets/profilePicture.jpg" alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
             <span>Lorra Belle</span>
           </div>
           <div>
-            <img src={profilePicture} alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
+            <img src="/assets/profilePicture.jpg" alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
             <span>Lorra Belle</span>
           </div>
           <div>
-            <img src={profilePicture} alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
+            <img src="/assets/profilePicture.jpg" alt='User Photo' className='w-[100px] h-[100px] object-cover rounded-md'/>
             <span>Lorra Belle</span>
           </div>
         </div>
