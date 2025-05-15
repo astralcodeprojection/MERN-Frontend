@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import { MdOutlineMoreVert } from "react-icons/md";
-import thumbsUp from "../../assets/thumbsUp.png";
-import heart from "../../assets/heart.png";
 
 
 const Post = ({ post }) => {
