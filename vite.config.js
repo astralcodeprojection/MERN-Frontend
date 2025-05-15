@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   assetsInclude: ['**/*.jpg', '**/*.png', '**/*.gif'],  // Ensure Vite processes image assets
+  build: {
+    outDir: 'dist'
+  },
 })
