@@ -1,10 +1,10 @@
-import React from 'react'
-import Logo from '../Logo/Logo'
+import React from 'react';
+import Logo from '../Logo/Logo';
 import { LiaSearchSolid } from "react-icons/lia";
 import { IoPersonCircleSharp } from "react-icons/io5";
 import { IoChatboxSharp } from "react-icons/io5";
 import { IoMdNotifications } from "react-icons/io";
-import profilePicture from '/assets/profilepicture.jpg'
+import profilePicture from "../../assets/profilepicture.jpg";
 
 const Navbar = () => {
   return (
