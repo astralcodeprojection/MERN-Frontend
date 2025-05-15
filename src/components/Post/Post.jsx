@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
-import { MdOutlineMoreVert } from 'react-icons/md'
-import profilePicture from "../../assets/profilePicture.jpg"
-import postPicture from '../../assets/postPicture.jpg'
-import thumbsUp from '../../assets/thumbsUp.png'
-import heart from '../../assets/heart.png'
+import React, { useState } from "react";
+import { MdOutlineMoreVert } from "react-icons/md";
+import profilePicture from "../../assets/profilePicture.jpg";
+import postPicture from "../../assets/postPicture.jpg";
+import thumbsUp from "../../assets/thumbsUp.png";
+import heart from "../../assets/heart.png";
 
 
 const Post = ({ post }) => {

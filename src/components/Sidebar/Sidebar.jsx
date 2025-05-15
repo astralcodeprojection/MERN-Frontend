@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 import { CgFeed } from "react-icons/cg";
 import { IoVideocam, IoBookmarks, IoSchoolSharp } from "react-icons/io5";
 import { TiGroup } from "react-icons/ti";
 import { IoMdChatbubbles } from "react-icons/io";
 import { BsQuestionSquareFill, BsCalendarEventFill } from "react-icons/bs";
-import imageTest from '../../assets/profilePicture.jpg'
-import FriendList from '../FriendList/FriendList';
-import { Friends } from '../../data/dummyData'
+import imageTest from "../../assets/profilePicture.jpg";
+import FriendList from "../FriendList/FriendList";
+import { Friends } from "../../data/dummyData";
 
 
 const Sidebar = () => {

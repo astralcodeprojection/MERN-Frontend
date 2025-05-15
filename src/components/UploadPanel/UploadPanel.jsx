@@ -1,6 +1,6 @@
-import React from 'react'
-import profilePicture from "../../assets/profilePicture.jpg"
-import {MdLabel, MdPermMedia, MdEmojiEmotions, MdLocationPin} from 'react-icons/md'
+import React from "react";
+import profilePicture from "../../assets/profilePicture.jpg";
+import {MdLabel, MdPermMedia, MdEmojiEmotions, MdLocationPin} from "react-icons/md";
 
 const UploadPanel = () => {
   return (

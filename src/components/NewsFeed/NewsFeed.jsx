@@ -1,7 +1,7 @@
-import React from 'react'
-import UploadPanel from '../UploadPanel/UploadPanel'
-import Post from '../Post/Post'
-import { Posts } from '../../data/dummyData'
+import React from "react";
+import UploadPanel from "../UploadPanel/UploadPanel";
+import Post from "../Post/Post";
+import { Posts } from "../../data/dummyData";
 
 const NewsFeed = () => {
   return (

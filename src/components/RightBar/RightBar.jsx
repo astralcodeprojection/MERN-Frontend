@@ -1,9 +1,9 @@
-import React from 'react'
-import birthdayIcon from '../../assets/giftBox.png'
-import ad from '../../assets/ad.jpeg'
-import profilePicture from "../../assets/profilePicture.jpg"
-import UsersOnline from '../UsersOnline/UsersOnline'
-import { Users } from '../../data/dummyData'
+import React from 'react';
+import birthdayIcon from '../../assets/giftBox.png';
+import ad from "../../assets/ad.jpeg";
+import profilePicture from "../../assets/profilePicture.jpg";
+import UsersOnline from "../UsersOnline/UsersOnline";
+import { Users } from "../../data/dummyData";
 
 
 const RightBar = ({profile}) => {
