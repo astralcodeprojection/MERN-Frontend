@@ -12,12 +12,14 @@ const Post = ({ post }) => {
         setIsLiked(!isLiked)
     }
 
+const user = Users.find((user) => user.id === post.userId);
+
   return (
     <div className='w-full rounded-md shadow-lg mt-[30px] mb-[30px] p-[10px]'>
         <div className='p-[10px]'>
             <div className='flex items-center justify-between'>
                 <div className='flex items-center'>
-                    <img src={Users.profilePicture}  alt='Profile Picture' className='w-[32px] h-[32px] rounded-full object-cover'/>
+                    <img src={user.profilePicture}  alt='Profile Picture' className='w-[32px] h-[32px] rounded-full object-cover'/>
                     <span className='font-bold ml-[10px] mr-[10px]'>Test Person</span>
                     <span className='text-sm'>{post.date}</span>
                 </div>
